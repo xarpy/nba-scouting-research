@@ -1,0 +1,10 @@
+ipykernel==7.2.0
+ipdb==0.13.13
+matplotlib==3.10.8
+mlxtend==0.24.0
+nltk==3.9.3
+pandas==2.3.3
+plotly==6.6.0
+seaborn==0.13.2
+scikit-learn==1.3.0
+streamlit==1.55.0

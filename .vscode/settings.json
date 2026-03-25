@@ -1,0 +1,46 @@
+{
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.analysis.typeCheckingMode": "basic",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "jupyter.kernels.excludePythonEnvironments": [
+    "${workspaceFolder}/.venv/bin/python",
+  ],
+  "[python]": {
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+  },
+  "flake8.args": [
+    "--ignore=E24,W504,W503,E203,E501,F405",
+    "--select=C,E,F,W,B,B9",
+    "--exclude=.git,__pycache__,__init__.py,.mypy_cache,.pytest_cache",
+    "--indent-size=4",
+    "--max-line-length=120",
+    "--verbose"
+  ],
+  "black-formatter.args": [
+    "--line-length",
+    "120",
+    "--exclude=.git,__pycache__,__init__.py,.mypy_cache,.pytest_cache,^.*\b(migrations)\b.*$",
+  ],
+  "isort.args": [
+    "--atomic",
+    "--profile=black",
+    "--multi-line=3"
+  ],
+  "files.associations": {
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  }
+}
