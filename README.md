@@ -1,6 +1,6 @@
-# 🎥 PROJETO MODELOS
+# 🎥 PROJETo NBA SCOUTING PLAYERS
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Trabalho de modelo descritivo, focado na simulação de venda de player da NBA, do periodo de 2024-2025 para o ano de 2026.
 
 ## 🙋 Author
 
@@ -11,9 +11,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## 📋 Sumário do Projeto
 
-1.  **Algum a coisa**: Lorem Ipsum
-2. **Algo:** : Lorem Ipsum Ipsum
-3.  **De certeza alguma coisa**: Lorem Ipsum Ipsum Ipsum
+1.  **Problematica**: Identificar os melhores jogadores de 2024/2025 com potencial de valorização de mercado, a fim de comercializar as análises estatísticas
 
 ## ⚙️ Instalação e Configuração
 
